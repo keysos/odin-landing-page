@@ -72,10 +72,13 @@
 }
 
 .right {
+    background-color: #6e737e;
     border: 2px solid yellow;
     height: 230px;
     width: 440px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
