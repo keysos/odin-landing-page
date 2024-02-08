@@ -1,0 +1,85 @@
+.header{
+    background-color: #1f2937;
+    padding: 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    
+}
+
+.nav h1{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav a{
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+/*I have trouble with that*/
+
+.hero {
+    display: flex;
+    font-family: 'Roboto';
+    justify-content: center;
+    margin: 100px 0px;
+    gap: 50px;
+
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 30px;
+    color: #f9faf8;
+}
+
+.left {
+    border: 2px solid yellow;
+    height: 230px;
+    width: 440px;
+   
+}
+
+.right {
+    border: 2px solid yellow;
+    height: 230px;
+    width: 440px;
+
+}
+
+
+
+
+
+
