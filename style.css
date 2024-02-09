@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+/*Header tab*/
+
 .header{
     background-color: #1f2937;
     padding: 15px;
@@ -10,7 +12,7 @@
 
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-family: 'Roboto';
     
 }
@@ -19,6 +21,7 @@
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 210px;
 }
 
 .nav ul {
@@ -26,6 +29,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-left: 210px;
 }
 
 .nav a{
@@ -36,7 +40,7 @@
     
 }
 
-/*I have trouble with that*/
+/*Hero tab*/
 
 .hero {
     display: flex;
@@ -84,6 +88,70 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Information tab*/
+
+.information {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+}
+
+.information h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 50px;
+    display: block;
+    text-align: center;
+}
+
+.information p{
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.information-item{
+    margin: 0 30px;
+    width: 160px;
+}
+    
+.box {
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+/* Quote tab */
+
+.quote {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 200px 300px;
+}
+
+.quote-autor{
+    color: #1f2937;
+    font-size: 24px;
+    float: right;
 }
 
 
