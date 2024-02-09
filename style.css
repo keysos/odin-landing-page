@@ -118,6 +118,7 @@
 .information-item{
     margin: 0 30px;
     width: 160px;
+    text-align: center;
 }
     
 .box {
@@ -187,10 +188,9 @@
     border: 2px solid #e5e7eb;
     border-radius: 8px;
     text-align: center;
-    font-weight: bold;
     padding: 8px 30px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* Footer tab */
