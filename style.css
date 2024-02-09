@@ -54,7 +54,7 @@
 .hero h1{
     font-size: 48px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .hero p{
@@ -74,7 +74,6 @@
 }
 
 .left {
-    border: 2px solid yellow;
     height: 300px;
     width: 440px;
    
@@ -82,7 +81,6 @@
 
 .right {
     background-color: #6e737e;
-    border: 2px solid yellow;
     height: 300px;
     width: 440px;
     display: flex;
@@ -106,7 +104,7 @@
 .information h1{
     font-size: 36px;
     color: #1f2937;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 50px;
     display: block;
     text-align: center;
@@ -123,8 +121,8 @@
 }
     
 .box {
-    height: 160px;
-    width: 160px;
+    height: 170px;
+    width: 170px;
     border-radius: 10px;
     border: 5px solid #3882f6;
 }
@@ -132,27 +130,87 @@
 /* Quote tab */
 
 .quote {
-    margin: 0px;
-    padding: 0px;
-    background-color: #e5e7eb;
     margin-top: 100px;
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .quote-content{
+    margin: 100px;
+    width: 800px;
+}
+
+.quote-content p {
+    align-items: center;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 200px 300px;
+    text-align: justify;
 }
 
-.quote-autor{
+.quote-content span{
     color: #1f2937;
     font-size: 24px;
     float: right;
+    font-weight: bold;
 }
+
+/* Sign up tab */
+
+.signup {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+.signup-content{
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px;
+    width: 1000px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.signup-text h2 {
+    color: white;
+}
+
+.signup-text p{
+    color: white;
+}
+
+.signup-content button{
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 30px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* Footer tab */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: 100px;
+    font-family: 'Roboto';
+}
+
+.footer-content{
+    font-size: 18px;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+}
+
 
 
 
